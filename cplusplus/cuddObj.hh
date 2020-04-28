@@ -55,7 +55,7 @@
 #include <string>
 #include <vector>
 #include "cudd.h"
-
+namespace CUDD {
 /*---------------------------------------------------------------------------*/
 /* Type definitions                                                          */
 /*---------------------------------------------------------------------------*/
@@ -745,6 +745,6 @@ public:
     std::string OrderString(void) const;
 
 }; // Cudd
-
+}
 
 #endif
